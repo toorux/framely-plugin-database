@@ -31,8 +31,7 @@
       "sha256": "7d37b9648b749ff25ba4d7987770398a92b5777fb2b2cc995c6c0bbe8b227c4a",
       "icon": "https://raw.githubusercontent.com/toorux/framely-plugin-passthrough-color/eb7fc9f3e9f4ab3ec469a07875dfa05e42156514/icon.png",
       "screenshots": [],
-      "runAs": "steamos",
-      "permissions": []
+      "runAs": "steamos"
     },
     {
       "id": "tooru.passthrough-color",
