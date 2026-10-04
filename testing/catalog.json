@@ -28,6 +28,33 @@
       "icon": "https://raw.githubusercontent.com/toorux/framely-plugin-passthrough-color/af27fe86b9ca5a6aafad80bed95fba5de9e6d6ed/icon.png",
       "screenshots": [],
       "runAs": "steamos"
+    },
+    {
+      "id": "tooru.termix",
+      "name": "Termix",
+      "version": "0.1.9-preview.2",
+      "description": "在 Frame 上使用 Termix 终端、文件管理与远程桌面，也可通过内网浏览器访问。",
+      "author": "tooru",
+      "authorUrl": null,
+      "documentationUrl": null,
+      "homepage": "https://github.com/Termix-SSH/Termix",
+      "apiVersion": 1,
+      "details": "将 Frame 变成可通过内网访问的远程管理工作台。使用 Termix 管理 SSH 连接、操作终端、传输文件，并连接远程桌面。在快捷面板设置登录账号、访问方式和网卡，点击打开即可在 Framely 大窗口直接使用；界面语言默认跟随 Framely，也可自行选择。",
+      "tags": [
+        "Tools",
+        "Terminal",
+        "Remote Access"
+      ],
+      "changelog": "修复首次 CI 构建运行环境时缺少 payload 和 dist 目录导致发布失败的问题。",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "conflicts": {},
+      "exclusiveResources": [],
+      "url": "https://github.com/toorux/framely-plugin-termix/releases/download/v0.1.9-preview.2/tooru.termix-0.1.9-preview.2.framely",
+      "sha256": "45a7d3624df55f7f94bdff44f0cacc16fd4f32497548f95f9e197866f005fcc3",
+      "icon": "https://raw.githubusercontent.com/toorux/framely-plugin-termix/220b2e54dfb1b4d4eb38355d7521be13b7e8167c/icon.png",
+      "screenshots": [],
+      "runAs": "steamos"
     }
   ]
 }
