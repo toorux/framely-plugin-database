@@ -28,6 +28,33 @@
       "icon": "https://raw.githubusercontent.com/toorux/framely-plugin-passthrough-color/af27fe86b9ca5a6aafad80bed95fba5de9e6d6ed/icon.png",
       "screenshots": [],
       "runAs": "steamos"
+    },
+    {
+      "id": "tooru.termix",
+      "name": "Termix",
+      "version": "0.1.9-preview.3",
+      "description": "在 Frame 上使用 Termix 终端、文件管理与远程桌面，也可通过内网浏览器访问。",
+      "author": "tooru",
+      "authorUrl": null,
+      "documentationUrl": null,
+      "homepage": "https://github.com/Termix-SSH/Termix",
+      "apiVersion": 1,
+      "details": "将 Frame 变成可通过内网访问的远程管理工作台。使用 Termix 管理 SSH 连接、操作终端、传输文件，并连接远程桌面。在快捷面板设置登录账号、访问方式和网卡，点击打开即可在 Framely 大窗口直接使用；界面语言默认跟随 Framely，也可自行选择。",
+      "tags": [
+        "Tools",
+        "Terminal",
+        "Remote Access"
+      ],
+      "changelog": "重新发布测试版，使用已修复大包校验的上游数据库进行注册；保留首次构建目录修复及完整 Termix 功能。",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "conflicts": {},
+      "exclusiveResources": [],
+      "url": "https://github.com/toorux/framely-plugin-termix/releases/download/v0.1.9-preview.3/tooru.termix-0.1.9-preview.3.framely",
+      "sha256": "dc5740217abd1cbf23f5d4bbb6363106efe8d13702aac7926a7d5804a0abd660",
+      "icon": "https://raw.githubusercontent.com/toorux/framely-plugin-termix/2b81f349714cb8ba040f05710d2f268b19bf96c0/icon.png",
+      "screenshots": [],
+      "runAs": "steamos"
     }
   ]
 }
