@@ -32,7 +32,7 @@
     {
       "id": "tooru.termix",
       "name": "Termix",
-      "version": "0.1.9-preview.4",
+      "version": "0.1.9-preview.5",
       "description": "在 Frame 上使用 Termix 终端、文件管理与远程桌面，也可通过内网浏览器访问。",
       "author": "tooru",
       "authorUrl": null,
@@ -45,14 +45,14 @@
         "Terminal",
         "Remote Access"
       ],
-      "changelog": "修复安装路径包含隐藏目录时内置功能资源返回 500、连接菜单为空的问题。",
+      "changelog": "修复 Framely 大窗口免登录与嵌套页面 Cookie 限制；修复启动和保存设置期间语言同步冲突，合并重复更新，支持失败重试并准确显示错误。",
       "dependencies": {},
       "optionalDependencies": {},
       "conflicts": {},
       "exclusiveResources": [],
-      "url": "https://github.com/toorux/framely-plugin-termix/releases/download/v0.1.9-preview.4/tooru.termix-0.1.9-preview.4.framely",
-      "sha256": "795f7c6427c396265090750cbb74104bcd2af7f3cabd5fb720d2ab81e307a0a4",
-      "icon": "https://raw.githubusercontent.com/toorux/framely-plugin-termix/83e15dbebb1d12c638c713284347d1cdd704dd82/icon.png",
+      "url": "https://github.com/toorux/framely-plugin-termix/releases/download/v0.1.9-preview.5/tooru.termix-0.1.9-preview.5.framely",
+      "sha256": "b0ff6f210b9b8b1035e4108e82637cf45ef78ccf2f3cf072068f64a21225adb1",
+      "icon": "https://raw.githubusercontent.com/toorux/framely-plugin-termix/494e9969011c0fea7c725cb5e3f0aafebf96570a/icon.png",
       "screenshots": [],
       "runAs": "steamos"
     }
