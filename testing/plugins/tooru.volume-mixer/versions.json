@@ -5,6 +5,33 @@
     {
       "id": "tooru.volume-mixer",
       "name": "Frame 音量合成器",
+      "version": "0.2.10-preview.4",
+      "description": "按进程调节播放音量与静音，支持 PipeWire 和 PulseAudio 应用。",
+      "author": "tooru",
+      "authorUrl": null,
+      "documentationUrl": null,
+      "homepage": null,
+      "apiVersion": 1,
+      "details": "顶部系统总音量控制当前默认播放设备，下方每个应用一行，可独立调音量与静音。透明背景界面沿用 Framely 样式，以 SteamOS 用户运行。",
+      "tags": [
+        "音频",
+        "音量",
+        "混音"
+      ],
+      "changelog": "被静音的应用在播放流消失后仍保留显示；支持修改保留应用的音量、静音及后台静音设置，恢复播放后自动应用。",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "conflicts": {},
+      "exclusiveResources": [],
+      "url": "https://github.com/toorux/framely-plugin-frame-volume-mixer/releases/download/v0.2.10-preview.4/tooru.volume-mixer-0.2.10-preview.4.framely",
+      "sha256": "d84900063c4f907bb131a59f62575afaef4ae33c05d77b20334482463d8c896c",
+      "icon": "https://raw.githubusercontent.com/toorux/framely-plugin-frame-volume-mixer/acb008074b1f04540addd9015ab48bcba80b7da3/icon.png",
+      "screenshots": [],
+      "runAs": "steamos"
+    },
+    {
+      "id": "tooru.volume-mixer",
+      "name": "Frame 音量合成器",
       "version": "0.2.10-preview.3",
       "description": "按进程调节播放音量与静音，支持 PipeWire 和 PulseAudio 应用。",
       "author": "tooru",
